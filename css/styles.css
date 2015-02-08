@@ -1,6 +1,6 @@
 .page {
 	padding: 20px;
-	font-family: Helvetica 'Lato';
+	font-family: Helvetica, 'Lato';
 	width: 50%;
 	margin: 0 auto;
 	border: 1px solid #000;
@@ -13,9 +13,14 @@
 	padding: 1px;
 	background: #128fdc;
 	color: #fff;
-	-webkit-font-smoothing: antialiased;
 	text-align: center;
 }
+
+.box-title, .footer p {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 .drop-image {
 	cursor: pointer;
 	clear: both;
@@ -63,9 +68,8 @@
 	overflow: hidden;
 }
 #footer p {
-	font-size: 90%;
-	-webkit-font-smoothing: antialiased;
 	float: right;
+	font-size: 90%;
 }
 
 .footer a {
