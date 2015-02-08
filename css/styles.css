@@ -33,10 +33,11 @@
 	border-top-color: #FFF;
 }
 
-#box2 {
+.box-container>div:nth-child(2)>.box-title{
 	background: #FFC328;
 }
-#box3 {
+
+.box-container>div:nth-child(3)>.box-title {
 	background: #009d0a;
 }
 .box-content {
