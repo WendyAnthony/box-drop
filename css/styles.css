@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	border: 1px solid #000;
 }
+
 .box {
 	margin-bottom: 20px;
 }
@@ -64,6 +65,8 @@
 	width: 150px;
 	margin-right: 10px;
 }
+
+/* footer */
 #footer {
 	overflow: hidden;
 }
