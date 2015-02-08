@@ -9,7 +9,9 @@
 		}
 	}
 
-	$.fn.boxdrop = function (opts) {
+	$.fn.boxdrop = function (drop) {
+		drop = drop || toggleSlide;
+
 		var me = this;
 		var getDrop = function(me){
 			return $(me).find('.box-title').find('.drop-image');
@@ -23,7 +25,7 @@
 				var i = getDrop(me).index($(this));
 				// corresponding box-content
 				var $box = $(me).find('.box-content');
-				toggleSlide($($box[i]));
+				drop($($box[i]));
 			});
 		});
 	}
