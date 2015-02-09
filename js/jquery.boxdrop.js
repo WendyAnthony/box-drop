@@ -17,7 +17,7 @@
 			return $(me).find('.box-title').find('.drop-image');
 		}
 
-		this.each(function(){
+		return this.each(function(){
 			var $image = getDrop(this);
 			// handle click event
 			$image.on('click', function(event){
