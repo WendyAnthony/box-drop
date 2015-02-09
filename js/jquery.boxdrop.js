@@ -1,12 +1,9 @@
 (function ($) {
-    // animate box
-    function toggleSlide($elem) {
-        // check if it's visible
-        $elem.slideToggle();
-    }
-    
+    // define plugin
     $.fn.boxdrop = function (drop) {
-        drop = drop || toggleSlide;
+        drop = drop || function(e){
+            e.slideToggle();
+        }
         return this.each(function () {
             $(this).on('click', '.drop-image', function(event) {
                 event.preventDefault();
