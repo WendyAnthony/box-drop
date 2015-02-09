@@ -12,7 +12,7 @@ Sample Markup
 	<div class="box">
 		<div class="box-title">
 			<h3>Sample Heading 1</h3>
-			<a class="drop-image"></a>
+			<button class="drop-image"></button>
 		</div>
 		<div class="box-content">
 			<p>Some Text</p>
@@ -21,7 +21,7 @@ Sample Markup
 	<div class="box">
 		<div class="box-title">
 			<h3>Sample Heading 2</h3>
-			<a class="drop-image"></a>
+			<button class="drop-image"></button>
 		</div>
 		<div class="box-content">
 			<p>Some Text</p>

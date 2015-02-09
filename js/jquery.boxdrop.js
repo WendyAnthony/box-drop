@@ -4,6 +4,7 @@
         // check if it's visible
         $elem.slideToggle();
     }
+    
     $.fn.boxdrop = function (drop) {
         drop = drop || toggleSlide;
         return this.each(function () {

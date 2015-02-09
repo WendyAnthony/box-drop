@@ -35,10 +35,13 @@
 	width: 0;
 	padding: 0;
 	margin: -8px;
+	background: transparent;
 	border: 8px solid transparent;
 	border-top-color: #FFF;
 }
-
+.drop-image:focus {
+	outline: none;
+}
 .box-container>div:nth-child(2)>.box-title{
 	background: #FFC328;
 }
